@@ -75,6 +75,14 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',  # Ensure static files are found
 ]
 
+
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "greencharge.onrender.com"
+]
+
+
 WSGI_APPLICATION = 'greencharge.wsgi.application'
 
 
